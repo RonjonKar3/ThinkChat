@@ -2,7 +2,6 @@ import { Webhook } from "svix";
 import connectDB from "../../../config/db";
 import User from "../../../models/User";
 import { headers } from "next/headers";
-import { json } from "stream/consumers";
 import { NextRequest } from "next/server";
 
 export async function POST(req){
